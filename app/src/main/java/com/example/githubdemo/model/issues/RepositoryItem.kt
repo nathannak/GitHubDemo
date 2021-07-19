@@ -1,0 +1,32 @@
+package com.example.githubdemo.model.issues
+
+data class RepositoryItem(
+    val active_lock_reason: Any,
+    val assignee: Assignee,
+    val assignees: List<Any>,
+    val author_association: String,
+    val body: String,
+    val closed_at: Any,
+    val comments: Int,
+    val comments_url: String,
+    val created_at: String,
+    val events_url: String,
+    val html_url: String,
+//    val id: Int,
+    val id: Long,
+    val labels: List<Label>,
+    val labels_url: String,
+    val locked: Boolean,
+    val milestone: Milestone,
+    val node_id: String,
+//    val number: Int,
+    val number: Long,
+    val performed_via_github_app: Any,
+    val pull_request: PullRequest,
+    val repository_url: String,
+    val state: String,
+    val title: String,
+    val updated_at: String,
+    val url: String,
+    val user: User
+)

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_navigation"
+    app:startDestination="@id/listFragment">
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.githubdemo.view.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_commentsFragment"
+            app:destination="@id/commentsFragment"
+            app:popUpTo="@id/listFragment"
+            app:popUpToInclusive="false">
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/commentsFragment"
+        android:name="com.example.githubdemo.view.CommentsFragment"
+        android:label="fragment_comments"
+        tools:layout="@layout/fragment_comments" >
+        <action
+            android:id="@+id/action_commentsFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <argument
+            android:name="comments_url"
+            app:argType="string">
+        </argument>
+    </fragment>
+</navigation>

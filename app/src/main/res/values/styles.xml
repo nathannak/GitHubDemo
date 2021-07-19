@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GreenText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#00FF00</item>
+    </style>
+
+    <style name="Text.Title1" parent="TextAppearance.AppCompat">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Title2" parent="TextAppearance.AppCompat">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.SubTitle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.NormalItalic" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+</resources>
